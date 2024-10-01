@@ -1,14 +1,14 @@
- @media screen and (max-width:620px)
+ @media screen and (max-width:600px)
  {
   html
   {
     font-size: 40%;
-    width: 510px;
+    width: 478px;
   }
 
   .topnav
   {
-    width: 80rem;
+    width: 75rem;
   }
 
   .topnav .im1
