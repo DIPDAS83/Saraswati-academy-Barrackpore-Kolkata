@@ -1,4 +1,161 @@
-body
+ @media screen and (max-width:478px)
+ {
+  html
+  {
+    font-size: 40%;
+    width: 478px;
+  }
+
+  .topnav
+  {
+    width: 75rem;
+  }
+
+  .topnav .im1
+  {
+    margin-top: 3rem;
+  }
+  .topnav .A
+  {
+    margin-top: 8rem;
+    font-size: 2.5rem;
+  }
+
+  /* .scroll
+  {
+    width: 60rem;
+  } */
+
+  .scroll .first1
+  {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  .blur_img .im2
+  {
+    height: 15rem;
+    width: 50rem;
+    margin-left: -20rem;
+  }
+
+  .text
+  {
+    height: 15rem;
+    width: 50rem;
+    margin-left: -20rem;
+  }
+
+  .text .boxflex
+  {
+    margin-right: 40rem;
+    margin-top: 5rem;
+  }
+
+  .text .boxflex1
+  {
+    margin-left: -17rem;
+    margin-top: 2rem;
+    color: white;
+  }
+
+  .main table
+  {
+    height: 180rem;
+    width: 100rem;
+    margin-left: -24rem;
+    margin-top: 5rem;
+    font-size: 0.1rem;
+    background-color: #ffffff;
+  }
+
+  /* .main table
+  {
+    height: 180rem;
+    width: 50rem;
+    background-color: #ffffff;
+    margin-left: -24rem;
+    margin-top: 1rem;
+  } */
+
+  .speech
+  {
+    display: inline-block;
+    height: 20rem;
+    width: 120rem;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    /* border: .2rem solid rgb(213, 46, 130); */
+  }
+
+  .speech p .sms1
+  {
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+  }
+
+  .speech .sms2
+  {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+ /* .location
+  {
+    width: 50rem;
+    font-size: 2rem;
+    color: #04AA6D;
+    margin-right: 10rem;
+    border: 0.2rem solid red;
+  }
+
+  .location .location-text
+  {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 34rem;
+    color: #ef0606;
+  } */
+
+  .location iframe
+  {
+    height: 30rem;
+    width: 55rem;
+    /* background-color: #00fe04; */
+    margin-top: 1rem;
+    margin-left: -25rem;
+    border: none;
+  }
+
+  .foot1 .footer-text
+  {
+    margin-top: 3.5rem;
+    margin-left: 33rem;
+    font-size: 2.5rem;
+  }
+
+  .foot1 .footer-second
+  {
+    margin-top: 3rem;
+    margin-left: 24rem;
+    font-size: 2.5rem;
+  }
+
+
+ }
+
+ @media (min-width:641px)
+ {
+  html
+  {
+    font-size: 64%;
+    width: 100%;
+  }
+ }
+
+
+ body
 {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,13 +174,13 @@ body
   float: left;
   color: #09bfd3;
   font-size: 1.7rem;
-  margin-top: 35px;
+  margin-top: 3.5rem;
   /* margin-left: 10px; */
 }  
 img
 {
-  height: 80px;
-  width: 80px;
+  height: 8rem;
+  width: 8rem;
   float: left;
   mix-blend-mode: multiply;
 }
@@ -32,18 +189,18 @@ img
     float: right;
     color: #ff0088;
     text-align: center;
-    padding: 14px 20px;
+    padding: 1.4rem 2rem;
     text-decoration: none;
-    font-size: 16px;
-    margin-right: 8px;
-    margin-top: 40px;
+    font-size: 1.6rem;
+    margin-right: .8rem;
+    margin-top: 4rem;
     background: transparent;
   }
 
   .scroll
   {
     width: 100%;
-    height: 40px;
+    height: 4rem;
     background-color: #d7186b;
   }
 
@@ -51,7 +208,7 @@ img
   {
     color: rgb(7, 255, 172);
     font-size: 1.3rem;
-    margin-top: 5px;
+    margin-top: .5rem;
   }
   /* .topnav p {
     font-size: 30px;
@@ -72,11 +229,11 @@ img
 
   .blur_img
   {
-    height: 200px;
-    width: 650px;
+    height: 20rem;
+    width: 65rem;
     background-color: #09bfd3;
-    margin-left: 330px;
-    margin-top: 20px;
+    margin-left: 33rem;
+    margin-top: 2rem;
     background: transparent;
     text-align: center;
   }
@@ -84,11 +241,11 @@ img
   .speech
   {
     display: inline-block;
-    height: 200px;
-    width: 1200px;
-    margin-top: 50px;
-    margin-left: 140px;
-    border: 2px solid rgb(213, 46, 130);
+    height: 20rem;
+    width: 70rem;
+    margin-top: 9rem;
+    margin-left: 1rem;
+    border: .2rem solid rgb(213, 46, 130);
     /* display: flex; */
     /* text-align: center; */
     /* justify-content: space-between; */
@@ -97,34 +254,34 @@ img
 
   .speech img
   {
-    height: 200px;
-    width: 200px;
+    height: 20rem;
+    width: 20rem;
     float: right;
-    border-radius: 120px;
+    border-radius: 12rem;
     /* overflow: hidden; */
   }
 
   .speech .sms1
   {
     color: #1b02ff;
-    margin-top: 5px;
-    margin-left: 3px;
-    font-size: 1rem;
+    margin-top: .5rem;
+    margin-left: .3rem;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
 
   .speech .sms2
   {
     color: #1b02ff;
-    margin-top: 20px;
-    margin-left: 15px;
-    font-size: 1rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
   .text
   {
-    height: 200px;
-    width: 850px;
+    height: 20rem;
+    width: 85rem;
     background-color: #09bfd3;
     position: absolute;
     background: transparent;
@@ -133,30 +290,30 @@ img
 
   .boxflex
   {
-    margin-top: 20px;
+    margin-top: 2rem;
     font-size: 2rem;
     font-weight: bolder;
     color: #e1e1e1;
-    margin-top: 90px;
+    margin-top: 9rem;
   }
 
   .boxflex1
   {
     font-size: 1.5rem;
     font-weight:900;
-    margin-left: 400px;
+    margin-left: 40rem;
   }
   
   .im2
   {
-    height: 200px;
-    width: 850px;
-    filter: blur(5px);
+    height: 20rem;
+    width: 85rem;
+    filter: blur(.5rem);
   }
   .title 
   {
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     background-color: #04AA6D;
     color: white;
     margin-top: 0;
@@ -164,7 +321,7 @@ img
   
   .content 
   {
-    padding: 20px;
+    padding: 2rem;
     text-align: center;
     /* background: transparent; */
   }
@@ -172,10 +329,10 @@ img
   .box 
   {
     width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 10px;
+    border: .1rem solid #ccc;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin-bottom: 1rem;
     background-color: #f8f8f8;
     background: transparent;
     border: none;
@@ -194,17 +351,17 @@ img
 
   .fa-solid
   {
-    margin-right: 8px;
+    margin-right: .8rem;
   }
   
   .button 
   {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     background-color: #1f6e06;
     color: white;
     border: none;
-    border-radius: 8px;
+    border-radius: .8rem;
     cursor: pointer;
   }
   
@@ -218,30 +375,30 @@ img
     width: 100%;
     left: 0;
     top: 0;
-    border-radius: 20px;
+    border-radius: .2rem;
     
   }
   .button:hover 
   {
     background-color: #9500ff;
-    box-shadow: 0 0 5px #f90303, 0 0 25px #ef0606, 0 0 50px #fe0101, 0 0 200px #fc0202;
+    box-shadow: 0 0 .5rem #f90303, 0 0 2.5rem #ef0606, 0 0 5rem #fe0101, 0 0 20rem #fc0202;
     color: #2f2f2f;
   }
 
   .main
   {
-    height: 1800px;
-    width: 1000px;
-    background-color: #ffffff;
-    margin-left: 250px;
-    margin-top: 50px;
+    height: 180rem;
+    width: 100rem;
+    background-color: transparent;
+    margin-left: 25rem;
+    margin-top: 5rem;
     /* box-shadow: -10px 20px #2f2f2f; */
   }
   .main header
   {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bolder;
-    margin-left: 20px;
+    margin-left: 2rem;
     color: #ff0000;
   }
 
@@ -249,25 +406,25 @@ img
   {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    width: 70rem;
     height: 100%;
 
   }
   
   tr
   {
-    border: 1px solid #dddddd;
+    border: .1rem solid #dddddd;
     text-align: center;
-    padding: 8px;
+    padding: .8rem;
     color: #d21b98;
   }
 
   td
   {
-    border: 1px solid #dddddd;
+    border: .1rem solid #dddddd;
     text-align: center;
-    padding: 8px;
-    font-size: 20px;
+    padding: .8rem;
+    font-size: 2rem;
     font-weight: bolder;
   }
   
@@ -278,66 +435,66 @@ img
   
   .location
   {
-    height: 300px;
-    width: 800px;
+    height: 30rem;
+    width: 80rem;
     /* background-color: #00fe04; */
-    margin-top: 60px;
-    margin-left: 350px;
-    border: 2px solid #2f2f2f;
+    margin-top: 6rem;
+    margin-left: 35rem;
+    /* border: .2rem solid #2f2f2f; */
   }
 
   .location .location-text
   {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
-    margin-left: 300px;
+    margin-left: 1rem;
     color: #ef0606;
   }
 
   iframe
   {
-    height: 250px;
-    width: 800px;
+    height: 25rem;
+    width: 80rem;
   }
 
   .foot1
   {
-    height: 170px;
+    height: 17rem;
     width: 100%;
     background-color: #000000;
-    margin-top: 100px;
+    margin-top: 10rem;
     /* border: 4px solid white; */
   }
 
   .footer-text
   {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(249, 253, 0);
-    margin-left: 620px;
+    margin-left: 62rem;
   }
 
   .footer-second
   {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: rgb(244, 72, 4);
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-left: 54rem;
+    margin-top: 2rem;
   }
 
   .last-img img
   {
-    height: 140px;
+    height: 14rem;
     width: 100%;
     background-color: transparent;
   }
 
   footer
   {
-    height: 280px;
+    height: 28rem;
     width: 100%;
     background-color: #000000;
-    margin-top: 100px;
+    margin-top: 10rem;
     /* border: 4px solid white; */
     text-align: center;
   }
@@ -347,36 +504,36 @@ img
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
   }
 
   .column1
   {
-    height: 200px;
-    width: 800px;
+    height: 20rem;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 8px;
+    gap: 1rem;
+    margin-top: .8rem;
   }
 
   .column2
   {
-    width: 800px;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 200px; */
   }
 
   .column3
   {
-    width: 800px;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 300px; */
   }
 
@@ -384,8 +541,8 @@ img
   {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 300px; */
     /* margin-right: 20px; */
   }
