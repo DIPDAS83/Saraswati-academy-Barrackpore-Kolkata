@@ -1,8 +1,190 @@
+@media screen and (max-width:478px)
+{
+  html
+  {
+    font-size: 40%;
+    width: 478px;
+  }
+
+  .topnav
+  {
+    width: 75rem;
+  }
+
+  .topnav .im1
+  {
+    margin-top: 3.5rem;
+  }
+  .topnav .A
+  {
+    margin-top: 8rem;
+    font-size: 2.8rem;
+  }
+
+  /* .scroll
+  {
+    width: 60rem;
+  } */
+
+  .scroll .first1
+  {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  .location iframe
+  {
+    height: 30rem;
+    width: 65rem;
+    /* background-color: #00fe04; */
+    margin-top: 1rem;
+    margin-left: -20rem;
+    border: none;
+  }
+
+  .foot1
+  {
+    height: 3rem;
+  }
+
+  .foot1 .footer-text
+  {
+    margin-top: 3.5rem;
+    margin-left: 33rem;
+    font-size: 2.5rem;
+  }
+
+  .foot1 .footer-second
+  {
+    margin-top: 3rem;
+    margin-left: 24rem;
+    font-size: 2.5rem;
+  }
+
+}
+
+.topnav 
+  {
+    overflow: hidden;
+    background-color: #f8f8f8;
+    /* height: 80px;
+    width: 100%; */
+  }
+  .topnav p
+{
+  float: left;
+  color: #09bfd3;
+  font-size: 1.7rem;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+}  
+img
+{
+  height: 8rem;
+  width: 8rem;
+  float: left;
+  mix-blend-mode: multiply;
+}
+  .topnav a 
+  {
+    float: right;
+    color: #ff0088;
+    text-align: center;
+    padding: 1.4rem 2rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-right: 0.8rem;
+    margin-top: 4rem;
+    background: transparent;
+  }
+
+  .scroll
+  {
+    width: 100%;
+    height: 4rem;
+    background-color: #d7186b;
+  }
+
+  .scroll marquee
+  {
+    color: rgb(7, 255, 172);
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+  /* .topnav p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  } */
+  
+  .topnav a:hover 
+  {
+    background-color: #09bfd3;
+    color: rgb(131, 240, 5);
+  }
+  
+  .topnav a.active 
+  {
+    background-color: #fcd200;
+    color: white;
+  }
+
+  .topnav .fa-solid
+  {
+    margin-right: 0.8rem;
+  }
+  
+  .button 
+  {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1f6e06;
+    color: white;
+    border: none;
+    border-radius: 0.8rem;
+    cursor: pointer;
+  }
+  
+  .button::before,
+  .button::after
+  {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* height: 100%; */
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 2rem;
+    
+  }
+  .button:hover 
+  {
+    background-color: #9500ff;
+    box-shadow: 0 0 0.5rem #f90303, 0 0 2.5rem #ef0606, 0 0 5rem #fe0101, 0 0 20rem #fc0202;
+    color: #2f2f2f;
+  }
+
+  .scroll
+  {
+    width: 100%;
+    height: 4rem;
+    background-color: #d7186b;
+  }
+
+  .scroll marquee
+  {
+    color: rgb(7, 255, 172);
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+  
+
+
 .contenor
 {
     display: inline-flex;
-    gap: 6px;
-    height: 300px;
+    gap: 0.6rem;
+    height: 30rem;
     width: 100%;
     border: none;
     justify-content: center;
@@ -10,29 +192,29 @@
 
 .first
 {
-    gap: 5px;
+    gap: 0.5rem;
     background-color: rgb(24, 5, 103);
-    height: 250px;
-    width: 350px;
-    margin-top: 20px;
+    height: 25rem;
+    width: 35rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .second
 {
     background-color: rgb(24, 5, 103);
-    height: 250px;
-    width: 350px;
-    margin-top: 20px;
+    height: 25rem;
+    width: 35rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
 .thirt
 {
     background-color: rgb(24, 5, 103);
-    height: 250px;
-    width: 350px;
-    margin-top: 20px;
+    height: 25rem;
+    width: 35rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -57,69 +239,69 @@ p
 {
     color: white;
     font-size: 2.1rem;
-    margin-top: 30px;
+    margin-top: 3rem;
 }
 
 .location
   {
-    height: 300px;
-    width: 1000px;
-    margin-top: 30px;
-    margin-left: 240px;
-    border: 2px solid #2f2f2f;
+    height: 30rem;
+    width: 80rem;
+    margin-top: 3rem;
+    margin-left: 24rem;
+    /* border: 0.2rem solid #2f2f2f; */
   }
 
   .location .location-text
   {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
-    margin-left: 430px;
+    margin-left: 1rem;
     color: #ef0606;
   }
 
 iframe
   {
-    height: 250px;
-    width: 1000px;
+    height: 25rem;
+    width: 100rem;
   }
 
   .foot1
   {
-    height: 170px;
+    height: 17rem;
     width: 100%;
     background-color: #000000;
-    margin-top: 100px;
+    margin-top: 10rem;
     /* border: 4px solid white; */
   }
 
   .footer-text
   {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: rgb(249, 253, 0);
-    margin-left: 620px;
+    margin-left: 62rem;
   }
 
   .footer-second
   {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bolder;
     color: rgb(244, 72, 4);
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-left: 54rem;
+    margin-top: 2rem;
   }
 
   .last-img img
   {
-    height: 140px;
+    height: 14rem;
     width: 100%;
     background-color: transparent;
   }
   footer
   {
-    height: 280px;
+    height: 28rem;
     width: 100%;
     background-color: #000000;
-    margin-top: 100px;
+    margin-top: 10rem;
     /* border: 4px solid white; */
     text-align: center;
   }
@@ -129,36 +311,36 @@ iframe
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
   }
 
   .column1
   {
-    height: 200px;
-    width: 800px;
+    height: 20rem;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 8px;
+    gap: 1rem;
+    margin-top: 0.8rem;
   }
 
   .column2
   {
-    width: 800px;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 200px; */
   }
 
   .column3
   {
-    width: 800px;
+    width: 80rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 300px; */
   }
 
@@ -166,8 +348,8 @@ iframe
   {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-bottom: 200px;
+    gap: 1rem;
+    margin-bottom: 20rem;
     /* margin-left: 300px; */
     /* margin-right: 20px; */
   }
@@ -192,119 +374,3 @@ iframe
   {
     text-decoration: underline;
   }
-
-  .topnav 
-  {
-    overflow: hidden;
-    background-color: #f8f8f8;
-    /* height: 80px;
-    width: 100%; */
-  }
-  .topnav p
-{
-  float: left;
-  color: #09bfd3;
-  font-size: 1.7rem;
-  margin-top: 35px;
-  margin-left: 10px;
-}  
-img
-{
-  height: 80px;
-  width: 80px;
-  float: left;
-  mix-blend-mode: multiply;
-}
-  .topnav a 
-  {
-    float: right;
-    color: #ff0088;
-    text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 8px;
-    margin-top: 40px;
-    background: transparent;
-  }
-
-  .scroll
-  {
-    width: 100%;
-    height: 40px;
-    background-color: #d7186b;
-  }
-
-  .scroll marquee
-  {
-    color: rgb(7, 255, 172);
-    font-size: 1.3rem;
-    margin-top: 5px;
-  }
-  /* .topnav p {
-    font-size: 30px;
-    margin-bottom: 10px;
-  } */
-  
-  .topnav a:hover 
-  {
-    background-color: #09bfd3;
-    color: rgb(131, 240, 5);
-  }
-  
-  .topnav a.active 
-  {
-    background-color: #fcd200;
-    color: white;
-  }
-
-  .topnav .fa-solid
-  {
-    margin-right: 8px;
-  }
-  
-  .button 
-  {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1f6e06;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  .button::before,
-  .button::after
-  {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    /* height: 100%; */
-    width: 100%;
-    left: 0;
-    top: 0;
-    border-radius: 20px;
-    
-  }
-  .button:hover 
-  {
-    background-color: #9500ff;
-    box-shadow: 0 0 5px #f90303, 0 0 25px #ef0606, 0 0 50px #fe0101, 0 0 200px #fc0202;
-    color: #2f2f2f;
-  }
-
-  .scroll
-  {
-    width: 100%;
-    height: 40px;
-    background-color: #d7186b;
-  }
-
-  .scroll marquee
-  {
-    color: rgb(7, 255, 172);
-    font-size: 1.3rem;
-    margin-top: 5px;
-  }
-  
